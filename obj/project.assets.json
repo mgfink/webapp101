@@ -12188,6 +12188,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "NLog >= 4.5.11",
+      "NLog.Extensions.Logging >= 1.4.0",
       "NLog.Web.AspNetCore >= 4.8.0"
     ]
   },
@@ -12250,6 +12251,10 @@
           "NLog": {
             "target": "Package",
             "version": "[4.5.11, )"
+          },
+          "NLog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",

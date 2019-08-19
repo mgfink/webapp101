@@ -15,7 +15,10 @@ namespace aspnetcoreapp
     {
         public static void Main(string[] args)
         {
+        //string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         // NLog: setup the logger first to catch all errors
+        //NLog.LogManager.Configuration = new NLog.Config.XmlLoggingConfiguration("nlog.config", true);
+        //var logger = NLog.Web.NLogBuilder.GetCurrentClassLogger();
         var logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
         try
         {

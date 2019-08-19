@@ -47,3 +47,20 @@
 2019-08-19 15:45:07.7038 Info Logger has been closed down.
 2019-08-19 15:45:07.7052 Info Shutting down logging...
 2019-08-19 15:45:07.7073 Info Logger has been shut down.
+2019-08-19 16:01:37.4485 Info Message Template Auto Format enabled
+2019-08-19 16:01:37.6556 Info Loading assembly: NLog.Web.AspNetCore
+2019-08-19 16:01:37.6573 Info Loading assembly: NLog.Extensions.Logging
+2019-08-19 16:01:37.8354 Info Adding target File Target[f]
+2019-08-19 16:01:37.9115 Error Parsing configuration from /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config.  ---> NLog.NLogConfigurationException: Target allfile not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-08-19 16:01:37.9135 Warn Failed loading config from /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config. Invalid XML?
+2019-08-19 16:01:37.9219 Info Found 15 configuration items
+2019-08-19 16:01:46.9594 Info Logger closing down...
+2019-08-19 16:01:46.9617 Info Closing old configuration.
+2019-08-19 16:01:46.9679 Info Logger has been closed down.
+2019-08-19 16:01:46.9696 Info Shutting down logging...
+2019-08-19 16:01:46.9722 Info Logger has been shut down.
