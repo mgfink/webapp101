@@ -9,13 +9,18 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace aspnetcoreapp
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+
+        private readonly ILogger _logger;
+
+        public Startup(IConfiguration configuration, ILoggerFactory logFactory)
         {
+            _logger = logFactory.CreateLogger<Startup>();
             Configuration = configuration;
         }
 
@@ -24,6 +29,8 @@ namespace aspnetcoreapp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            _logger.LogInformation("hello application initialization");
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
