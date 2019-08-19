@@ -1,0 +1,33 @@
+2019-08-19 15:13:00.1344 Info Message Template Auto Format enabled
+2019-08-19 15:13:00.3092 Info Loading assembly: NLog.Web.AspNetCore
+2019-08-19 15:13:00.3655 Info Adding target File Target[allfile]
+2019-08-19 15:13:00.3683 Info Adding target File Target[ownFile-web]
+2019-08-19 15:13:00.3773 Info Configured from an XML element in /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config...
+2019-08-19 15:13:00.3966 Info Found 45 configuration items
+2019-08-19 15:13:44.0890 Info Logger closing down...
+2019-08-19 15:13:44.0921 Info Closing old configuration.
+2019-08-19 15:13:44.1060 Info Logger has been closed down.
+2019-08-19 15:13:44.1078 Info Shutting down logging...
+2019-08-19 15:13:44.1105 Info Logger has been shut down.
+2019-08-19 15:27:55.7308 Info Message Template Auto Format enabled
+2019-08-19 15:27:55.9311 Info Loading assembly: NLog.Web.AspNetCore
+2019-08-19 15:27:55.9967 Info Adding target File Target[allfile]
+2019-08-19 15:27:56.0866 Info Adding target File Target[ownFile-web]
+2019-08-19 15:27:56.0985 Info Configured from an XML element in /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config...
+2019-08-19 15:27:56.1217 Info Found 45 configuration items
+2019-08-19 15:28:56.4737 Info Logger closing down...
+2019-08-19 15:28:56.4767 Info Closing old configuration.
+2019-08-19 15:28:56.4896 Info Logger has been closed down.
+2019-08-19 15:28:56.4910 Info Shutting down logging...
+2019-08-19 15:28:56.4934 Info Logger has been shut down.
+2019-08-19 15:31:25.3923 Info Message Template Auto Format enabled
+2019-08-19 15:31:25.5830 Info Loading assembly: NLog.Web.AspNetCore
+2019-08-19 15:31:25.6395 Info Adding target File Target[allfile]
+2019-08-19 15:31:25.6426 Info Adding target File Target[ownFile-web]
+2019-08-19 15:31:25.6515 Info Configured from an XML element in /Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config...
+2019-08-19 15:31:25.6713 Info Found 45 configuration items
+2019-08-19 15:32:01.5557 Info Logger closing down...
+2019-08-19 15:32:01.5595 Info Closing old configuration.
+2019-08-19 15:32:01.5734 Info Logger has been closed down.
+2019-08-19 15:32:01.5753 Info Shutting down logging...
+2019-08-19 15:32:01.5778 Info Logger has been shut down.

@@ -1,0 +1,392 @@
+2019-08-19 15:13:00.5827||DEBUG|aspnetcoreapp.Program|init main 
+2019-08-19 15:13:01.1531||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/mfink/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2019-08-19 15:27:56.3656||DEBUG|aspnetcoreapp.Program|init main 
+2019-08-19 15:28:00.1781||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/mfink/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2019-08-19 15:28:32.3756|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:32.4551|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:32.6230|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:32.6400|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:32.6400|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:32.6428|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:32.6428|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:33.0481|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 403.7739ms 
+2019-08-19 15:28:33.0490|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:33.1055|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 730.1342ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:33.1598|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:33.2773|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:33.2793|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 119.4787ms 200 text/css 
+2019-08-19 15:28:33.2799|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:33.2845|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:33.2849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0117ms 200 text/css 
+2019-08-19 15:28:33.2905|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:33.2946|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:33.2951|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.6119ms 200 application/javascript 
+2019-08-19 15:28:33.2987|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:33.3036|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:33.3074|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:33.3078|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.1053ms 200 application/javascript 
+2019-08-19 15:28:33.3087|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:33.3087|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.4463ms 200 application/javascript 
+2019-08-19 15:28:39.1478|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:39.1478|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:39.1489|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:39.1489|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:39.1498|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:39.1498|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:39.1498|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:39.1531|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 3.7915ms 
+2019-08-19 15:28:39.1531|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:39.1541|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.2887ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:39.1711|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:39.1737|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:39.1742|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:39.1742|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:39.1795|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:39.1801|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.4562ms 200 text/css 
+2019-08-19 15:28:39.1810|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:39.1867|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:39.1867|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8237ms 200 application/javascript 
+2019-08-19 15:28:39.1867|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:39.1880|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.9364ms 200 text/css 
+2019-08-19 15:28:39.1880|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:39.1891|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.9101ms 200 application/javascript 
+2019-08-19 15:28:39.1917|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:39.1917|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.211ms 200 application/javascript 
+2019-08-19 15:28:39.2329|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:39.2361|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:39.2361|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.5289ms 200 image/x-icon 
+2019-08-19 15:28:41.4622|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:41.4622|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:41.4628|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:41.4628|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:41.4628|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:41.4628|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:41.4638|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:41.4649|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.8186ms 
+2019-08-19 15:28:41.4649|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:41.4649|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.4102ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:41.4821|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:41.4821|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:41.4833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:41.4833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:41.4833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:41.4845|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:41.4849|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:41.4849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.9562ms 200 application/javascript 
+2019-08-19 15:28:41.4849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8202ms 200 text/css 
+2019-08-19 15:28:41.4875|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:41.4885|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.3611ms 200 text/css 
+2019-08-19 15:28:41.4887|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:41.4887|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.751ms 200 application/javascript 
+2019-08-19 15:28:41.4973|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:41.4973|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.3901ms 200 application/javascript 
+2019-08-19 15:28:41.5304|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:41.5324|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:41.5329|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.4289ms 200 image/x-icon 
+2019-08-19 15:28:42.0939|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:42.0939|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:42.0939|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:42.0951|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:42.0951|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:42.0951|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:42.0959|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:42.0970|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.987ms 
+2019-08-19 15:28:42.0970|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:42.0978|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9381ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:42.1168|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:42.1197|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:42.1202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:42.1202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:42.1209|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:42.1341|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:42.1341|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.9567ms 200 text/css 
+2019-08-19 15:28:42.1371|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:42.1371|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.8751ms 200 text/css 
+2019-08-19 15:28:42.1422|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:42.1428|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.1411ms 200 application/javascript 
+2019-08-19 15:28:42.1445|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:42.1449|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.6988ms 200 application/javascript 
+2019-08-19 15:28:42.1584|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:42.1589|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.9714ms 200 application/javascript 
+2019-08-19 15:28:42.1871|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:42.1892|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:42.1892|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5228ms 200 image/x-icon 
+2019-08-19 15:28:42.5596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:42.5602|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:42.5619|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:42.5619|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:42.5619|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:42.5628|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:42.5628|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:42.5638|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.5197ms 
+2019-08-19 15:28:42.5638|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:42.5638|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.7147ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:42.5825|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:42.5830|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:42.5846|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:42.5848|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:42.5848|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:42.5883|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:42.5883|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6481ms 200 text/css 
+2019-08-19 15:28:42.5921|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:42.5921|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.0599ms 200 text/css 
+2019-08-19 15:28:42.5950|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:42.5950|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7549ms 200 application/javascript 
+2019-08-19 15:28:42.5968|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:42.5968|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.378ms 200 application/javascript 
+2019-08-19 15:28:42.6032|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:42.6032|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.6399ms 200 application/javascript 
+2019-08-19 15:28:42.6382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:42.6402|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:42.6402|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.4609ms 200 image/x-icon 
+2019-08-19 15:28:43.0115|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:43.0119|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:43.0136|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:43.0141|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:43.0141|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:43.0141|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:43.0148|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:43.0160|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 2.009ms 
+2019-08-19 15:28:43.0160|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:43.0168|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.4039ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:43.0347|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:43.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:43.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:43.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:43.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:43.0433|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:43.0439|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.1456ms 200 text/css 
+2019-08-19 15:28:43.0456|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:43.0460|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.9622ms 200 text/css 
+2019-08-19 15:28:43.0485|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:43.0485|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:43.0489|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.67ms 200 application/javascript 
+2019-08-19 15:28:43.0489|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.159ms 200 application/javascript 
+2019-08-19 15:28:43.0536|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:43.0541|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.1402ms 200 application/javascript 
+2019-08-19 15:28:43.0898|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:43.0921|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:43.0921|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.8114ms 200 image/x-icon 
+2019-08-19 15:28:50.0744|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:50.0749|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:50.0805|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:50.0810|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:50.0810|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:50.0810|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:50.0819|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:50.0828|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.9046ms 
+2019-08-19 15:28:50.0828|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:50.0828|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.0911ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:50.1026|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:50.1030|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:50.1042|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:50.1042|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:50.1051|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:50.1042|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:50.1051|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3181ms 200 text/css 
+2019-08-19 15:28:50.1086|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:50.1091|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.5418ms 200 text/css 
+2019-08-19 15:28:50.1133|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:50.1140|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.7056ms 200 application/javascript 
+2019-08-19 15:28:50.1180|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:50.1180|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.2255ms 200 application/javascript 
+2019-08-19 15:28:50.1194|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:50.1194|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.4505ms 200 application/javascript 
+2019-08-19 15:28:50.1545|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:50.1569|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:50.1569|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.7903ms 200 image/x-icon 
+2019-08-19 15:28:50.5051|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:50.5051|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:50.5110|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:50.5110|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:50.5118|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:50.5118|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:50.5118|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:50.5136|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 2.1583ms 
+2019-08-19 15:28:50.5140|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:50.5140|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.2537ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:50.5320|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:50.5320|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:50.5342|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:50.5342|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:50.5362|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:50.5362|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:50.5362|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.2146ms 200 text/css 
+2019-08-19 15:28:50.5434|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:50.5438|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.5802ms 200 application/javascript 
+2019-08-19 15:28:50.5438|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:50.5451|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.8526ms 200 application/javascript 
+2019-08-19 15:28:50.5465|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:50.5469|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7449ms 200 application/javascript 
+2019-08-19 15:28:50.5488|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:50.5488|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.3337ms 200 text/css 
+2019-08-19 15:28:50.5843|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:50.5862|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:50.5862|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3163ms 200 image/x-icon 
+2019-08-19 15:28:50.6609|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:50.6609|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:50.6635|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:50.6639|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:50.6639|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:50.6639|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:50.6648|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:50.6658|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.9041ms 
+2019-08-19 15:28:50.6658|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:50.6658|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6834ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:50.6871|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:50.6871|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:50.6904|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:50.6904|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:50.6904|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:50.6943|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:50.6948|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6705ms 200 text/css 
+2019-08-19 15:28:50.6960|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:50.6960|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.8673ms 200 text/css 
+2019-08-19 15:28:50.6974|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:50.6974|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.3398ms 200 application/javascript 
+2019-08-19 15:28:50.7052|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:50.7059|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.4967ms 200 application/javascript 
+2019-08-19 15:28:50.7090|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:50.7090|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.1341ms 200 application/javascript 
+2019-08-19 15:28:50.7385|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:50.7404|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:50.7410|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.521ms 200 image/x-icon 
+2019-08-19 15:28:50.8199|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:50.8199|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:50.8220|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:50.8220|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:50.8220|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:50.8228|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:50.8228|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:50.8239|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.6159ms 
+2019-08-19 15:28:50.8239|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:50.8239|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.5543ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:50.8447|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:50.8455|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:50.8508|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:50.8508|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:50.8508|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:50.8527|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:50.8531|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6638ms 200 text/css 
+2019-08-19 15:28:50.8563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:50.8568|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.0837ms 200 text/css 
+2019-08-19 15:28:50.8635|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:50.8639|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.0614ms 200 application/javascript 
+2019-08-19 15:28:50.8639|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:50.8639|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.9151ms 200 application/javascript 
+2019-08-19 15:28:50.8685|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:50.8690|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.2042ms 200 application/javascript 
+2019-08-19 15:28:50.9015|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:50.9037|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:50.9041|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.6599ms 200 image/x-icon 
+2019-08-19 15:28:50.9775|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:50.9779|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:50.9797|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:50.9800|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:50.9800|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:50.9800|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:50.9810|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:50.9822|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 2.2288ms 
+2019-08-19 15:28:50.9822|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:50.9829|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3967ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:51.0015|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:51.0021|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:51.0043|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:51.0043|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:51.0043|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:51.0049|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:51.0049|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.5353ms 200 text/css 
+2019-08-19 15:28:51.0087|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:51.0093|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.8231ms 200 text/css 
+2019-08-19 15:28:51.0120|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:51.0120|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.2684ms 200 application/javascript 
+2019-08-19 15:28:51.0171|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:51.0171|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.3099ms 200 application/javascript 
+2019-08-19 15:28:51.0185|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:51.0188|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.4752ms 200 application/javascript 
+2019-08-19 15:28:51.0544|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:51.0569|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:51.0569|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.9653ms 200 image/x-icon 
+2019-08-19 15:28:51.1047|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:51.1051|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:51.1051|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:51.1058|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:51.1058|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:51.1058|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:51.1058|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:51.1077|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.9978ms 
+2019-08-19 15:28:51.1083|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:51.1083|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0105ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:51.1527|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:51.1529|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:51.1542|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:51.1542|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:51.1542|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:51.1576|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:51.1582|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.485ms 200 text/css 
+2019-08-19 15:28:51.1596|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:51.1600|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:51.1600|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.365ms 200 application/javascript 
+2019-08-19 15:28:51.1600|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.364ms 200 text/css 
+2019-08-19 15:28:51.1652|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:51.1652|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.4881ms 200 application/javascript 
+2019-08-19 15:28:51.1662|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:51.1662|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.4487ms 200 application/javascript 
+2019-08-19 15:28:51.2417|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:51.2417|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:51.2426|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:51.2430|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:51.2430|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:51.2440|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:51.2440|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:51.2440|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:51.2440|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:51.2454|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6864ms 200 image/x-icon 
+2019-08-19 15:28:51.2459|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 2.4051ms 
+2019-08-19 15:28:51.2459|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:51.2469|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.1645ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:51.2679|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:51.2679|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:51.2693|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:51.2693|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:51.2701|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:51.2708|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:51.2708|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.1275ms 200 text/css 
+2019-08-19 15:28:51.2741|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:51.2741|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.7975ms 200 text/css 
+2019-08-19 15:28:51.2794|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:51.2800|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.6625ms 200 application/javascript 
+2019-08-19 15:28:51.2815|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:51.2824|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8889ms 200 application/javascript 
+2019-08-19 15:28:51.2844|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:51.2850|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.8796ms 200 application/javascript 
+2019-08-19 15:28:51.3538|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/   
+2019-08-19 15:28:51.3538|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Page: /Index' 
+2019-08-19 15:28:51.3548|3|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Route matched with {page = "/Index"}. Executing page /Index 
+2019-08-19 15:28:51.3548|101|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing handler method aspnetcoreapp.Pages.IndexModel.OnGet - ModelState is Valid 
+2019-08-19 15:28:51.3548|102|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed handler method OnGet, returned result . 
+2019-08-19 15:28:51.3548|103|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executing an implicit handler method - ModelState is Valid 
+2019-08-19 15:28:51.3559|104|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult. 
+2019-08-19 15:28:51.3569|4|INFO|Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker|Executed page /Index in 1.8061ms 
+2019-08-19 15:28:51.3569|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Page: /Index' 
+2019-08-19 15:28:51.3578|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9733ms 200 text/html; charset=utf-8 
+2019-08-19 15:28:51.3793|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.css   
+2019-08-19 15:28:51.3798|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/css/site.css   
+2019-08-19 15:28:51.3798|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.js   
+2019-08-19 15:28:51.3798|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.js   
+2019-08-19 15:28:51.3829|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18   
+2019-08-19 15:28:51.3842|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/css/site.css' 
+2019-08-19 15:28:51.3842|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/js/site.js' 
+2019-08-19 15:28:51.3842|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.9111ms 200 text/css 
+2019-08-19 15:28:51.3851|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.222ms 200 application/javascript 
+2019-08-19 15:28:51.3875|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/css/bootstrap.css' 
+2019-08-19 15:28:51.3884|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.1021ms 200 text/css 
+2019-08-19 15:28:51.3902|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js' 
+2019-08-19 15:28:51.3910|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.2811ms 200 application/javascript 
+2019-08-19 15:28:51.3902|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/lib/jquery/dist/jquery.js' 
+2019-08-19 15:28:51.3926|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.902ms 200 application/javascript 
+2019-08-19 15:28:51.4382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico   
+2019-08-19 15:28:51.4406|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/Users/mfink/tmp/aspnetcoreapp/wwwroot/favicon.ico' 
+2019-08-19 15:28:51.4411|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.882ms 200 image/x-icon 
+2019-08-19 15:31:25.8667||DEBUG|aspnetcoreapp.Program|init main 
+2019-08-19 15:31:26.4048||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/mfink/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 

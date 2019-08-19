@@ -28,3 +28,4 @@
 /Users/mfink/tmp/aspnetcoreapp/obj/Debug/netcoreapp2.2/aspnetcoreapp.dll
 /Users/mfink/tmp/aspnetcoreapp/obj/Debug/netcoreapp2.2/aspnetcoreapp.pdb
 /Users/mfink/tmp/aspnetcoreapp/obj/Debug/netcoreapp2.2/aspnetcoreapp.csproj.CopyComplete
+/Users/mfink/tmp/aspnetcoreapp/bin/Debug/netcoreapp2.2/nlog.config
