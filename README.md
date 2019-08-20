@@ -48,7 +48,7 @@ Additionally, changes were made in Startup.cs that admittedly don't use NLog but
 Once you have a web app deployed to Azure, configure a git remote site to point to the SCM host.  Once the code is to your liking just perform a git push.
 
 ```bash
-git remote add azure https://webapp101.scm.azurewebsites.net
+git remote add azure https://webapp101.scm.azurewebsites.net:443/webapp101.git
 git push azure
 ```
 
