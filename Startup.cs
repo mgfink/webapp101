@@ -29,8 +29,10 @@ namespace aspnetcoreapp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            _logger.LogInformation("Hello application initialization");
-            _logger.LogInformation("Coming to you live from <" + Environment.GetEnvironmentVariable("COMPUTERNAME") + ">");
+            _logger.LogInformation("INIT: In ConfigureServices() method");
+            _logger.LogInformation("INIT: Running on instance <" + Environment.GetEnvironmentVariable("COMPUTERNAME") + ">");
+            _logger.LogInformation("INIT: Running slot is <" + Environment.GetEnvironmentVariable("HTTP_HOST") + ">");
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
