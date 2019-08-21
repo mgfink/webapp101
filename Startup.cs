@@ -32,9 +32,9 @@ namespace aspnetcoreapp
         {
             _logger.LogInformation("INIT: In ConfigureServices() method");
             _logger.LogInformation("INIT: Running on instance <" + Environment.GetEnvironmentVariable("COMPUTERNAME") + ">");
-            _logger.LogInformation("INIT: Running slot is <" + Environment.GetEnvironmentVariable("WEBSITE_HOSTNAME") + ">");
+            _logger.LogInformation("INIT: Running slot is <" + Environment.GetEnvironmentVariable("APPSETTING_SLOT") + ">");
             Trace.TraceInformation("INIT: Running on instance <" + Environment.GetEnvironmentVariable("COMPUTERNAME") + ">"); // Write an information message
-            Trace.TraceInformation("INIT: Running slot is <" + Environment.GetEnvironmentVariable("HTTP_HOST") + ">");
+            Trace.TraceInformation("INIT: Running slot is <" + Environment.GetEnvironmentVariable("APPSETTING_SLOT") + ">");
 
 
             services.Configure<CookiePolicyOptions>(options =>
